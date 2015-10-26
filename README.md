@@ -1,12 +1,30 @@
 # Ember-particles
 
-This README outlines the details of collaborating on this Ember addon.
+This provides an Ember component around [Particles.js](https://github.com/VincentGarreau/particles.js/). 
+
+## Usage
+
+This will get you Particle.js' default options:
+
+```handlebars
+{{ember-particles}}
+```
+
+To customize, use the `ember-particles-options` helper (using the options in the Particle.js README:
+
+```handlebars
+{{ember-particles
+  options=(ember-particles-options
+    'particles.number.value' 2
+    'particles.number.density.enable' true
+    'particles.line_linked.width' 1
+  )
+}}
+```
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* ember install ember-particles
 
 ## Running
 
