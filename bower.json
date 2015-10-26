@@ -11,6 +11,7 @@
     "ember-resolver": "~0.1.18",
     "jquery": "^1.11.3",
     "loader.js": "ember-cli/loader.js#3.2.1",
+    "particles.js": "~2.0.0",
     "qunit": "~1.18.0"
   }
 }
