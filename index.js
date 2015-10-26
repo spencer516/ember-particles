@@ -1,5 +1,3 @@
-var Funnel = require('broccoli-funnel');
-var mergeTrees = require('broccoli-merge-trees');
 /* jshint node: true */
 'use strict';
 
