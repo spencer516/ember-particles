@@ -1,0 +1,1 @@
+export { default } from 'ember-particles/components/ember-particles/component';
